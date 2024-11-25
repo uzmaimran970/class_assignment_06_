@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import { Button } from "@/components/ui/button"
+
 
 const Courses = () => {
   const courseData = [
@@ -127,10 +129,13 @@ const Courses = () => {
         ))}
       </div>
         {/* Button Section */}
-<div className="text-center mt-8 sm:mt-12">
+{/* <div className="text-center mt-8 sm:mt-12">
   <button className="w-[140px] sm:w-[155px] h-[40px] sm:h-[48px] rounded-[5px] outline outline-2 outline-black px-[16px] sm:px-[24px] py-[8px] sm:py-[12px] text-[12px] sm:text-[14px] bg-[#f7f7f7] text-black hover:bg-gray-300">
     View All Courses
   </button>
+</div> */}
+<div className="text-center mt-8 sm:mt-12">
+ <Button className="w-[140px] sm:w-[155px] h-[40px] sm:h-[48px] rounded-[5px] outline outline-2 outline-black px-[16px] sm:px-[24px] py-[8px] sm:py-[12px] text-[12px] sm:text-[14px] bg-[#f7f7f7] text-black hover:bg-gray-300 mt-[50px]">View all courses</Button>
 </div>
 
     </div>
